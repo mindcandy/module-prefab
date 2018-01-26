@@ -1,11 +1,11 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model\DataProvider;
+namespace MindCandy\Prefab\Model\DataProvider;
 
 
 use Magento\Framework\Component\ComponentRegistrar;
 use Magento\Store\Api\Data\StoreInterface;
-use MaxBucknell\Prefab\Api\DataProviderInterface;
+use MindCandy\Prefab\Api\DataProviderInterface;
 
 class Modules implements DataProviderInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model;
+namespace MindCandy\Prefab\Model;
 
 use Magento\Store\Api\Data\StoreInterface;
-use MaxBucknell\Prefab\Api\DataProviderInterface;
+use MindCandy\Prefab\Api\DataProviderInterface;
 
 class DataProvider implements DataProviderInterface
 {

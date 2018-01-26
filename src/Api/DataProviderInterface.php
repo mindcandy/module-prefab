@@ -1,6 +1,6 @@
 <?php
 
-namespace MaxBucknell\Prefab\Api;
+namespace MindCandy\Prefab\Api;
 
 use Magento\Store\Api\Data\StoreInterface;
 

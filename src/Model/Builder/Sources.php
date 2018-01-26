@@ -1,10 +1,10 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model\Builder;
+namespace MindCandy\Prefab\Model\Builder;
 
 use Magento\Framework\Component\ComponentRegistrar;
-use MaxBucknell\Prefab\Api\BuilderInterface;
-use MaxBucknell\Prefab\Model\Filesystem;
+use MindCandy\Prefab\Api\BuilderInterface;
+use MindCandy\Prefab\Model\Filesystem;
 
 class Sources implements BuilderInterface
 {

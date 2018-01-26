@@ -1,4 +1,4 @@
-# MaxBucknell_prefab
+# MindCandy_prefab
 
 Deep npm integration with Magento 2 for better a front-end build process.
 
@@ -15,10 +15,10 @@ easily add new features to the front end build pipeline.
 ## Installation
 
 ```bash
-composer config repositories.prefab vcs git@github.com:maxbucknell/module-prefab
+composer config repositories.prefab vcs git@github.com:mindcandy/module-prefab
 composer config "minimum-stability" "dev"
 composer config "prefer-stable" "true"
-composer require maxbucknell/module-prefab
+composer require mindcandy/module-prefab
 ```
 
 ## Getting Started
@@ -218,7 +218,7 @@ It is possible to add more. Create a new class that implements the
 `DataProviderInterface`, and include it as a constructor parameter, like so:
  
 ```xml
-<type name="MaxBucknell\prefab\Model\DataProvider">
+<type name="MindCandy\prefab\Model\DataProvider">
     <arguments>
         <argument name="dataProviders" xsi:type="array">
             <item name="FOO" xsi:type="object">Vendor\Module\Model\DataProvider\Foo</item>
@@ -251,9 +251,9 @@ a JS file in your module's `prefab directory`, and set the task's command to be
 `task-file.js` should be a Node script, and it can use any of the Node standard
 library. In addition, the module packages some useful library files.
 
-* `MaxBucknell_Prefab/lib/magento-data.js` packages all the standard environment
+* `MindCandy_Prefab/lib/magento-data.js` packages all the standard environment
 variables into a JavaScript object, parsing JSON as necessary.
-* `MaxBucknell_Prefab/lib/run.js` allows the passing of a command to run as
+* `MindCandy_Prefab/lib/run.js` allows the passing of a command to run as
 a separate process.
 
 ### Build Directories

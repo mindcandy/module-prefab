@@ -1,5 +1,5 @@
 <?php
-namespace MaxBucknell\Prefab\Model;
+namespace MindCandy\Prefab\Model;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 

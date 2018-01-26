@@ -1,5 +1,5 @@
 {
-    "name": "maxbucknell/module-prefab",
+    "name": "mindcandy/module-prefab",
     "description": "Prefab integration with Magento 2",
     "require": {
         "php": "~7.0.0",
@@ -12,8 +12,8 @@
             "registration.php"
         ],
         "psr-4": {
-            "MaxBucknell\\Prefab\\": "src/",
-            "MaxBucknell\\Prefab\\Test\\": "test/"
+            "MindCandy\\Prefab\\": "src/",
+            "MindCandy\\Prefab\\Test\\": "test/"
         }
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model;
+namespace MindCandy\Prefab\Model;
 
-use MaxBucknell\Prefab\Api\BuilderInterface;
+use MindCandy\Prefab\Api\BuilderInterface;
 
 class Builder implements BuilderInterface
 {

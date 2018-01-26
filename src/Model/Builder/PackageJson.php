@@ -1,11 +1,11 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model\Builder;
+namespace MindCandy\Prefab\Model\Builder;
 
-use MaxBucknell\Prefab\Api\BuilderInterface;
-use MaxBucknell\Prefab\Model\Generator\PackageJson as PackageJsonGenerator;
-use MaxBucknell\Prefab\Model\Filesystem;
-use MaxBucknell\Prefab\Model\Config\Data as PrefabConfig;
+use MindCandy\Prefab\Api\BuilderInterface;
+use MindCandy\Prefab\Model\Generator\PackageJson as PackageJsonGenerator;
+use MindCandy\Prefab\Model\Filesystem;
+use MindCandy\Prefab\Model\Config\Data as PrefabConfig;
 
 class PackageJson implements BuilderInterface
 {

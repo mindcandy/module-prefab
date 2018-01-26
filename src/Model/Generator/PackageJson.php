@@ -1,13 +1,13 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model\Generator;
+namespace MindCandy\Prefab\Model\Generator;
 
 class PackageJson
 {
     public function generate($config = [])
     {
         $result = [
-            'name' => '@maxbucknell/magento-prefab',
+            'name' => '@mindcandy/magento-prefab',
             'version' => '1.0.0',
             'description' => '',
             'author' => '',

@@ -3,7 +3,7 @@
 namespace Model\Generator;
 
 
-use MaxBucknell\Prefab\Model\Generator\PackageJson;
+use MindCandy\Prefab\Model\Generator\PackageJson;
 
 class PackageJsonTest extends \PHPUnit_Framework_TestCase
 {
@@ -25,7 +25,7 @@ class PackageJsonTest extends \PHPUnit_Framework_TestCase
         $actual = $this->generator->generate();
         $expected = <<<JSON
 {
-    "name": "@maxbucknell/magento-prefab",
+    "name": "@mindcandy/magento-prefab",
     "version": "1.0.0",
     "description": "",
     "main": "prefabfile.js",
@@ -54,7 +54,7 @@ JSON;
         $actual = $this->generator->generate($config);
         $expected = <<<JSON
 {
-    "name": "@maxbucknell/magento-prefab",
+    "name": "@mindcandy/magento-prefab",
     "version": "1.0.0",
     "description": "",
     "main": "prefabfile.js",
@@ -86,7 +86,7 @@ JSON;
         $actual = $this->generator->generate($config);
         $expected = <<<JSON
 {
-    "name": "@maxbucknell/magento-prefab",
+    "name": "@mindcandy/magento-prefab",
     "version": "1.0.0",
     "description": "",
     "main": "prefabfile.js",

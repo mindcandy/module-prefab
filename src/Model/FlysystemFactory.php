@@ -1,6 +1,6 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model;
+namespace MindCandy\Prefab\Model;
 
 
 use League\Flysystem\Adapter\Local;

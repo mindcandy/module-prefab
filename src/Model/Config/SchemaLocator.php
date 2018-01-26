@@ -1,6 +1,6 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model\Config;
+namespace MindCandy\Prefab\Model\Config;
 
 
 use Magento\Framework\Config\SchemaLocatorInterface;
@@ -16,7 +16,7 @@ class SchemaLocator implements SchemaLocatorInterface
     public function __construct(
         ModuleDirReader $moduleReader
     ) {
-        $configDir = $moduleReader->getModuleDir(Dir::MODULE_ETC_DIR, 'MaxBucknell_Prefab');
+        $configDir = $moduleReader->getModuleDir(Dir::MODULE_ETC_DIR, 'MindCandy_Prefab');
 
         $this->schema = $configDir . DIRECTORY_SEPARATOR . self::CONFIG_FILE_SCHEMA;
     }

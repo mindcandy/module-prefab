@@ -1,13 +1,13 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model\DataProvider;
+namespace MindCandy\Prefab\Model\DataProvider;
 
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\View\Design\Theme\FlyweightFactory;
 use Magento\Store\Api\Data\StoreInterface;
-use MaxBucknell\Prefab\Api\DataProviderInterface;
-use MaxBucknell\Prefab\Model\Filesystem;
+use MindCandy\Prefab\Api\DataProviderInterface;
+use MindCandy\Prefab\Model\Filesystem;
 use Magento\Theme\Model\View\Design;
 
 class RequirejsConfigDir implements DataProviderInterface

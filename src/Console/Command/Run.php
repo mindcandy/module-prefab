@@ -1,12 +1,12 @@
 <?php
 
-namespace MaxBucknell\Prefab\Console\Command;
+namespace MindCandy\Prefab\Console\Command;
 
 
 use Magento\Framework\App\State;
 use Magento\Store\Api\StoreRepositoryInterface;
-use MaxBucknell\Prefab\Api\DataProviderInterface;
-use MaxBucknell\Prefab\Model\Filesystem;
+use MindCandy\Prefab\Api\DataProviderInterface;
+use MindCandy\Prefab\Model\Filesystem;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

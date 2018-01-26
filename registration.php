@@ -4,6 +4,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'MaxBucknell_Prefab',
+    'MindCandy_Prefab',
     __DIR__
 );

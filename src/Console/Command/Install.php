@@ -1,9 +1,9 @@
 <?php
 
-namespace MaxBucknell\Prefab\Console\Command;
+namespace MindCandy\Prefab\Console\Command;
 
 
-use MaxBucknell\Prefab\Model\Filesystem;
+use MindCandy\Prefab\Model\Filesystem;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

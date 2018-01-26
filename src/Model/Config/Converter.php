@@ -1,5 +1,5 @@
 <?php
-namespace MaxBucknell\Prefab\Model\Config;
+namespace MindCandy\Prefab\Model\Config;
 
 use Magento\Framework\Config\ConverterInterface;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace MaxBucknell\Prefab\Test\Model\Generator;
+namespace MindCandy\Prefab\Test\Model\Generator;
 
-use MaxBucknell\Prefab\Model\Generator\Prefabfile;
+use MindCandy\Prefab\Model\Generator\Prefabfile;
 
 class PrefabfileTest extends \PHPUnit_Framework_TestCase
 {

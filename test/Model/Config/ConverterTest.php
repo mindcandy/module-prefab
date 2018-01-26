@@ -1,8 +1,8 @@
 <?php
 
-namespace MaxBucknell\Prefab\Test\Unit\Model\Config;
+namespace MindCandy\Prefab\Test\Unit\Model\Config;
 
-use MaxBucknell\Prefab\Model\Config\Converter;
+use MindCandy\Prefab\Model\Config\Converter;
 
 class ConverterTest extends \PHPUnit_Framework_TestCase
 {

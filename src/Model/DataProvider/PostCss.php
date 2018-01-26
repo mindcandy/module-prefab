@@ -1,10 +1,10 @@
 <?php
 
-namespace MaxBucknell\Prefab\Model\DataProvider;
+namespace MindCandy\Prefab\Model\DataProvider;
 
 
 use Magento\Store\Api\Data\StoreInterface;
-use MaxBucknell\Prefab\Api\DataProviderInterface;
+use MindCandy\Prefab\Api\DataProviderInterface;
 
 class PostCss implements DataProviderInterface
 {
